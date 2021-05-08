@@ -1,0 +1,909 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+h4{
+   font-size: 30px;
+    color: white;
+}
+h6{
+    font-size: 15px;
+    color: white;
+}
+h5{
+    font-size: 30px;
+    color: white;
+}
+p{
+  font-size: 15px;
+    color: white;  
+}
+.top{
+    background-color: #edeff1;
+    padding: 30px 0;
+}
+.nav-link{
+    color: #31353e;
+    margin: 0 10px;
+}
+.nav-link.js-scroll-trigger.active{
+    background-color: #dd4b2b;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+.hero{
+   width: 100%;
+    padding: 25px 0;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin-top: 120px;
+}
+.banner-content{
+    padding-top: 370px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;    
+}
+.hero h1{
+    font-size: 72px;
+    color: white;
+    font-weight: inherit;    
+}
+.hero h2{
+    font-size: 30px;
+    color: white;
+    padding-top: 15px;
+    font-weight: bold;    
+}
+.banner-item{
+   text-align: center;
+margin-top: 100px;
+}
+.banner-item h4{
+padding-top: 20px;
+font-weight: bold;
+padding-bottom: 15px;
+}
+.banner-item h6{
+text-align: match-parent;
+font-size: 16px;
+font-weight: lighter;
+line-height: 2;
+}
+.hero-btn{
+    border: none;
+color: #612316;
+background-color: white;
+font-size: 18px;
+padding: 10px 55px;
+border-radius: 50px;
+margin-left: 450px;
+margin-top: 70px;
+margin-bottom: 100px;
+transition: .2s ease-in-out;
+}
+.hero-btn:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #612316; 
+}
+.our-news{
+    padding: 50px 0;
+    background-color: #edeff1;
+}
+.our-content h2{
+    text-align: center;
+font-size: 40px;
+color: #31353e;
+font-weight: bold;
+    margin-top: 20px;
+}
+.our-img{
+   margin-top: 70px;
+text-align: center; 
+    margin-bottom: 50px;
+}
+.our-img h5{
+    color: #31353e;
+font-weight: bold;
+margin-top: 30px;
+margin-bottom: 15px;
+}
+.our-img p{
+    color: black;
+font-weight: lighter;
+line-height: 2;
+font-size: 17px;
+}
+.our-img-btn{
+   border: none;
+background-color: white;
+color: #4e5159;
+padding: 15px 50px;
+border-radius: 50px;
+margin-top: 30px; 
+    transition: .3s ease-in-out;
+}
+.our-img-btn:hover{
+    color: white;
+    background-color: #4e5159;
+    cursor: pointer;
+    
+}
+.form-content{
+    width: 60%;
+margin: 0 auto;
+    text-align: center;
+}
+.newsletter{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url(../img/Panakeia_template-Symu_co.jpg);
+    background-repeat: no-repeat;background-size: cover;
+    background-position: center top;
+    padding: 30px 0;
+}
+.letter-content h2{
+    font-size: 35px;
+font-weight: bold;
+color: white;
+padding-top: 30px;
+}
+.letter-content p{
+   font-size: 17px;
+font-weight: lighter; 
+}
+.form{
+  width: 50%;
+margin: 0 auto;
+    margin-top: 30px;
+margin-bottom: 80px;
+}
+.news-form{
+  width: 450px;
+font-size: 20px;
+margin-left: 25px;
+border: none;
+border-radius: 50px;
+padding-top: 8px;
+padding-bottom: 6px;
+padding-left: 30px;
+background-color: #ffffff54;
+color: white;
+position: relative;  
+}
+.sign-btn{
+    border: none;
+padding: 10px 60px;
+background-color: white;
+color: #612316;
+border-radius: 50px;
+position: absolute;
+left: 52%;
+}
+.sign-btn:hover{
+    color: white;
+    background-color: #612316;
+    cursor: pointer;
+}
+.lorem-one{
+    margin-top: 60px;
+}
+.lorem-text h2{
+    color: #000000d6;
+font-size: 40px;
+font-weight: bold;
+    padding-top: 5px;
+}
+.lorem-text h6{
+    font-size: 15px;
+color: black;
+font-weight: initial;
+padding-top: 5px;
+line-height: 2;
+}
+.lorem-text p{
+    font-size: 15px;
+color: black;
+font-weight: initial;
+padding-top: 0px;
+line-height: 2;
+}
+.lorem-btn{
+    padding: 5px 40px;
+border: none;
+border-radius: 50px;
+background-color: #dd4b2b;
+color: white;
+margin-bottom: 30px;
+}
+.lorem-btn:hover{
+background-color: wheat;
+color: #dd4b2b;
+}
+.lorem-two{
+    margin-top: 60px;
+margin-bottom: 60px;
+}
+.lorem-text-two{
+    margin-left: -95px;
+}
+.lorem-text-two h6{
+    font-size: 15px;
+color: black;
+font-weight: initial;
+padding-top: 5px;
+line-height: 2;
+}
+.lorem-text-two p{
+    font-size: 15px;
+color: black;
+font-weight: initial;
+padding-top: 0px;
+line-height: 2;
+}
+.abt-shop{
+    background-color: #d75d0e;
+    width: 100%;
+    float: left;
+}
+.shop-one{
+    padding: 90px 0px;
+    text-align: center;
+}
+.shop-one span{
+    margin: 0px auto;
+    display: block;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+}
+footer{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/Panakeia_template-Symu_co.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center top;
+padding: 30px 0
+}
+.footer-content{
+    
+}
+@media (min-width: 320px) and (max-width: 576px){
+    .banner-content {
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+  .hero h1 {
+    font-size: 25px;
+    color: white;
+    font-weight: inherit;
+}    
+ .hero h2 {
+    font-size: 16px;
+    color: white;
+    padding-top: 7px;
+    font-weight: bold;
+}
+.banner-item {
+    text-align: center;
+    margin-top: 18px;
+}
+    .banner-item h4 {
+    padding-top: 10px;
+    font-weight: bold;
+    padding-bottom: 0px;
+    color: white;
+}
+    .banner-item h6 {
+    text-align: match-parent;
+    font-size: 13px;
+    font-weight: lighter;
+    color: white;
+}
+  .hero-btn {
+    border: none;
+    color: #612316;
+    background-color: white;
+    font-size: 18px;
+    padding: 10px 55px;
+    border-radius: 50px;
+    margin-left: 53px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    transition: .2s ease-in-out;
+} 
+    .our-news {
+    padding: 25px 0;
+    background-color: #edeff1;
+}
+    .our-content h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #31353e;
+    font-weight: bold;
+    margin-top: 0px;
+}
+    .our-img {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+    .our-img h5 {
+    color: #31353e;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+  .our-img p {
+    color: black;
+    font-weight: lighter;
+    font-size: 15px;
+}
+   .our-img-btn {
+    border: none;
+    background-color: white;
+    color: #4e5159;
+    padding: 15px 50px;
+    border-radius: 50px;
+    margin-top: 10px;
+    transition: .3s ease-in-out;
+} 
+  .form-content {
+      width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+    .letter-content h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding-top: 0;
+}
+    .letter-content p {
+    font-size: 10px;
+    font-weight: lighter;
+}
+.form {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+    .news-form {
+    width: 215px;
+    font-size: 15px;
+    margin-left: 0;
+    border: none;
+    border-radius: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    background-color: #ffffff54;
+    color: white;
+    position: relative;
+}
+    .sign-btn {
+    border: none;
+    padding: 7px 30px;
+    background-color: white;
+    color: #612316;
+    border-radius: 50px;
+    position: absolute;
+    left: 45%;
+}
+ .lorem-text h2 {
+    color: #000000d6;
+    font-size: 31px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+    .lorem-text h6 {
+    font-size: 12px;
+    color: black;
+    font-weight: initial;
+    padding-top: 5px;
+    line-height: 2;
+}
+.lorem-text p {
+    font-size: 12px;
+    color: black;
+    font-weight: initial;
+    padding-top: 0px;
+    line-height: 2;
+}    
+ .lorem-btn {
+    padding: 5px 40px;
+    border: none;
+    border-radius: 50px;
+    background-color: #dd4b2b;
+    color: white;
+    margin-bottom: 30px;
+    margin-left: 85px;
+}   
+ .lorem-text-two {
+    margin-left: 0;
+}
+    .lorem-text-two h2{
+        color: #000000d6;
+font-size: 31px;
+font-weight: bold;
+padding-top: 5px;
+}
+    .lorem-text-two h6 {
+    font-size: 12px;
+    color: black;
+    font-weight: initial;
+    padding-top: 5px;
+    line-height: 2;
+}
+    .lorem-text-two p {
+    font-size: 12px;
+    color: black;
+    font-weight: initial;
+    padding-top: 0px;
+    line-height: 2;
+}
+    .shop-one {
+    padding: 25px 0px;
+    text-align: center;
+}
+    span{
+        cursor: pointer;
+    }
+}
+    @media (min-width: 400px) and (max-width: 576px) {
+        sign-btn {
+    border: none;
+    padding: 7px 30px;
+    background-color: white;
+    color: #612316;
+    border-radius: 50px;
+    position: absolute;
+    left: 33%;
+}
+        .news-form {
+    width: 279px;
+    font-size: 15px;
+    margin-left: 0;
+    border: none;
+    border-radius: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    background-color: #ffffff54;
+    color: white;
+    position: relative;
+}
+        .lorem-img{
+            text-align: center;
+        }
+        .lorem-text-two {
+    margin-left: 0;
+    text-align: center;
+}
+        .lorem-one {
+    margin-left: 0;
+    text-align: center;
+}
+        .lorem-btn {
+    padding: 5px 40px;
+    border: none;
+    border-radius: 50px;
+    background-color: #dd4b2b;
+    color: white;
+    margin-bottom: 30px;
+    margin-left: 0;
+}
+} 
+
+@media (min-width: 576.01px) and (max-width: 768px){
+        .banner-content {
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+  .hero h1 {
+    font-size: 25px;
+    color: white;
+    font-weight: inherit;
+}    
+ .hero h2 {
+    font-size: 16px;
+    color: white;
+    padding-top: 7px;
+    font-weight: bold;
+}
+.banner-item {
+    text-align: center;
+    margin-top: 18px;
+}
+    .banner-item h4 {
+    padding-top: 10px;
+    font-weight: bold;
+    padding-bottom: 0px;
+    color: white;
+}
+    .banner-item h6 {
+    text-align: match-parent;
+    font-size: 13px;
+    font-weight: lighter;
+    color: white;
+}
+  .hero-btn {
+    border: none;
+    color: #612316;
+    background-color: white;
+    font-size: 18px;
+    padding: 10px 55px;
+    border-radius: 50px;
+    margin-left: 160px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    transition: .2s ease-in-out;
+}
+      .our-news {
+    padding: 25px 0;
+    background-color: #edeff1;
+}
+    .our-content h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #31353e;
+    font-weight: bold;
+    margin-top: 0px;
+}
+    .our-img {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+    .our-img h5 {
+    color: #31353e;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+  .our-img p {
+    color: black;
+    font-weight: lighter;
+    font-size: 17px;
+}
+   .our-img-btn {
+    border: none;
+    background-color: white;
+    color: #4e5159;
+    padding: 15px 50px;
+    border-radius: 50px;
+    margin-top: 10px;
+    transition: .3s ease-in-out;
+} 
+  .form-content {
+      width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+    .letter-content h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding-top: 0;
+}
+    .letter-content p {
+    font-size: 15px;
+    font-weight: lighter;
+}
+.form {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+    .news-form {
+    width: 340px;
+font-size: 15px;
+margin-left: 0;
+border: none;
+border-radius: 50px;
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 15px;
+background-color: #ffffff54;
+color: white;
+position: relative;
+}
+    .sign-btn {
+    border: none;
+padding: 7px 30px;
+background-color: white;
+color: #612316;
+border-radius: 50px;
+position: absolute;
+left: 53%;
+}    
+   .lorem-text h2 {
+    color: #000000d6;
+    font-size: 31px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+    .lorem-text h6 {
+    font-size: 12px;
+    color: black;
+    font-weight: initial;
+    padding-top: 5px;
+    line-height: 2;
+}
+.lorem-text p {
+    font-size: 12px;
+    color: black;
+    font-weight: initial;
+    padding-top: 0px;
+    line-height: 2;
+}    
+ .lorem-btn {
+    padding: 5px 40px;
+    border: none;
+    border-radius: 50px;
+    background-color: #dd4b2b;
+    color: white;
+    margin-bottom: 30px;
+    margin-left: 85px;
+}   
+ .lorem-text-two {
+    margin-left: 0;
+     text-align: center;
+}
+    .lorem-text-two h2{
+        color: #000000d6;
+font-size: 31px;
+font-weight: bold;
+padding-top: 5px;
+}
+    .lorem-text-two h6 {
+    font-size: 12px;
+    color: black;
+    font-weight: initial;
+    padding-top: 5px;
+    line-height: 2;
+}
+    .lorem-text-two p {
+    font-size: 12px;
+    color: black;
+    font-weight: initial;
+    padding-top: 0px;
+    line-height: 2;
+} 
+         .lorem-img{
+            text-align: center;
+        }
+        .lorem-text-two {
+    margin-left: 0;
+    text-align: center;
+}
+        .lorem-one {
+    margin-left: 0;
+    text-align: center;
+}
+        .lorem-btn {
+    padding: 5px 40px;
+    border: none;
+    border-radius: 50px;
+    background-color: #dd4b2b;
+    color: white;
+    margin-bottom: 30px;
+    margin-left: 0;
+}
+}
+@media (width: 768px){
+.banner-item {
+    text-align: center;
+    margin-top: 20px;
+}
+    .banner-item h6 {
+    text-align: match-parent;
+    font-size: 10px;
+    font-weight: lighter;
+    color: white;
+    line-height: 2;
+}
+    .banner-content {
+    padding-top: 5px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+    .hero-btn {
+    border: none;
+    color: #612316;
+    background-color: white;
+    font-size: 18px;
+    padding: 10px 55px;
+    border-radius: 50px;
+    margin-left: 250px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    transition: .2s ease-in-out;
+}
+    .our-content h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #31353e;
+    font-weight: bold;
+    margin-top: 20px;
+}
+    .our-img {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+    .our-img p {
+    color: black;
+    font-weight: lighter;
+    font-size: 14px;
+}
+ .news-form {
+    width: 340px;
+    font-size: 15px;
+    margin-left: 75px;
+    border: none;
+    border-radius: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    background-color: #ffffff54;
+    color: white;
+    position: relative;
+}
+    .letter-content p {
+    font-size: 17px;
+    font-weight: lighter;
+    text-align: inherit;
+}
+    
+}
+@media (min-width: 768.01px) and (max-width: 992px){
+  .banner-item {
+    text-align: center;
+    margin-top: 20px;
+}
+    .banner-item h6 {
+    text-align: match-parent;
+    font-size: 10px;
+    font-weight: lighter;
+    color: white;
+    line-height: 2;
+}
+    .banner-content {
+    padding-top: 5px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+    .hero-btn {
+    border: none;
+    color: #612316;
+    background-color: white;
+    font-size: 18px;
+    padding: 10px 55px;
+    border-radius: 50px;
+    margin-left: 250px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    transition: .2s ease-in-out;
+}
+        .our-content h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #31353e;
+    font-weight: bold;
+    margin-top: 20px;
+}
+    .our-img {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+    .our-img p {
+    color: black;
+    font-weight: lighter;
+    font-size: 14px;
+}
+     .news-form {
+    width: 340px;
+font-size: 15px;
+margin-left: 0;
+border: none;
+border-radius: 50px;
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 15px;
+background-color: #ffffff54;
+color: white;
+position: relative;
+}
+    .sign-btn {
+    border: none;
+    padding: 8px 60px;
+    background-color: white;
+    color: #612316;
+    border-radius: 50px;
+    position: absolute;
+    left: 52%;
+}
+    .letter-content p {
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: inherit;
+}
+    .lorem-text h2 {
+    color: #000000d6;
+    font-size: 34px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+    .lorem-text h6 {
+    font-size: 12px;
+    color: black;
+    font-weight: initial;
+    padding-top: 5px;
+    line-height: 2;
+}
+    .lorem-text p {
+    font-size: 12px;
+    color: black;
+    font-weight: initial;
+    padding-top: 0px;
+    line-height: 2;
+}
+    .lorem-text-two {
+    margin-left: 0;
+}
+    .lorem-text-two h6 {
+    font-size: 12px;
+    color: black;
+    font-weight: initial;
+    padding-top: 5px;
+    line-height: 2;
+}
+    .lorem-text-two p {
+    font-size: 12px;
+    color: black;
+    font-weight: initial;
+    padding-top: 0px;
+    line-height: 2;
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
